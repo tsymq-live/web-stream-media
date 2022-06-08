@@ -5,11 +5,11 @@
 #### 2.启动转码任务，运行根目录下的start
 #### 3.windows用户启动start.exe
 #### 4.linux用户运行start
-	```
-	killall start
-	cd /www/123.com
-	nohup ./start &
-	```
+```
+killall start
+cd /www/123.com
+nohup ./start &
+```
 
 ### 0x1
 #### 1.声明：本软件完全免费，仅供学习交流使用，勿用于违法用途！！

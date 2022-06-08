@@ -1,15 +1,18 @@
-2022/06/08
+[详细文档](https://www.kancloud.cn/tsymq/easyvod/2732252)
     
 0x0
     1.如何安装，和使用php程序一样，新建站点把代码丢上去就完了
     2.启动转码任务，运行根目录下的start
     3.windows用户启动start.exe
     4.linux用户运行start
-    
-    完事搞掂
+	```
+	killall start
+	cd /www/123.com
+	nohup ./start &
+	```
 
 0x1
-    1.声明：本软件完全免费，仅供学习交流使用，勿用于违法用途，不提供技术支持！！
+    1.声明：本软件完全免费，仅供学习交流使用，勿用于违法用途！！
     2.简介：这是我2017年写的流媒体工具，大概功能就是能够将你上传的视频自动转码切片
     3.说明：比较简陋，前端用php写的，你可以自行修改，如果有bug可以给我反馈下面有我的邮箱
     4.说明：前端你可以进行二次开发，转码端最早是用nodejs写的，最近翻出来用Go重写了
@@ -33,9 +36,11 @@
     /uploads/       存放上传分片文件
     /webuploader/   前端上传插件（来自百度）
 
-    by：danran
-    email：tsymq@live.com
-
 0x4
     上传不了，多半是nginx上传限制到2m，修改nginx配置中的client_max_body_size改为4m即可
     
+	
+## 界面预览
+![](https://s1.ax1x.com/2022/04/17/LULSzV.gif)
+
+:-: 联系作者：tsymq@live.com

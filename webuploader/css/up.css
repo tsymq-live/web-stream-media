@@ -1,0 +1,77 @@
+﻿body { font-family: "微软雅黑"; font-size: 16px;     margin:0;    padding: 0;}
+a:link, a:visited { color: #666666; text-decoration: none; outline: none; }
+a:hover { color: #0E4470; }
+.clear { clear: both; }
+.hyright { width: 1280px; min-height: 520px; padding: 18px; background: #fff; border: 1px solid #dee2e5; margin: 0 auto; box-sizing: border-box;}
+.shipin_tit h2 { font-size: 30px; font-weight: normal; }
+.shipin_tit h2 ul li.selected { color: rgb(60, 150, 226); border-bottom: 1px solid rgb(60, 150, 226); }
+.shipin_tit h2 ul li { float: left; color: #C2C1C1; padding: 5px 10px; cursor: pointer; }
+ul li, ul { list-style-type: none; padding: 0; margin: 0; }
+.webuploader-container { width: 286px; height: 186px; background: url(sc.png) no-repeat; margin: 10px auto; cursor: pointer; position: relative; }
+.webuploader-element-invisible { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px,1px,1px,1px); }
+.webuploader-pick { position: relative; display: inline-block; cursor: pointer; width: 286px; height: 186px; color: #fff; text-align: center; border-radius: 3px; overflow: hidden; }
+#divFileProgressContainer { position: relative; }
+.webuploader-pick-disable { opacity: 0.6; pointer-events: none; }
+.progressName { font-size: 14px; margin: 10px 0px; }
+.progressName a { float: right; border: 1px solid #ff7a19; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+.cancle { position: absolute; right: 0; width: 70px; height: 26px; border: 1px solid #ff7a19; color: #ff7a19; border-radius: 5px; line-height: 26px; text-align: center; }
+.progressBarInProgress { height: 100%; display: block; background: #38E68E; border-radius: 3px; }
+.jindu { width: 100%; height: 23px; padding: 3px; border: 1px solid #D3D3D3; border-radius: 4px; margin-top: 20px; margin-bottom: 8px; }
+.progressBarStatus ul li { float: left; width: 25%; text-align: center; }
+.progressBarStatus ul li.first { text-align: left; }
+.progressBarStatus ul li.last { text-align: right; }
+tr:hover td{background:#ffd;}
+.pos td{background: #ff7a19;}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 6px 0;
+}
+input{
+    outline:0;
+    border:1px solid #ddd;
+    height: 32px;
+    line-height: 1.1;
+    width: 100%;
+    font-size: 18px;
+}
+.preview{
+    cursor: pointer;
+    display: none;
+    width: 220px;
+    height: 110px;
+    left: 60px;
+    background: #ccc;
+    position: absolute;
+}
+.container{
+    position: relative;
+}
+.title{
+    max-width:435px;
+}
+.title span{
+    max-width:200px;
+    display:inline-block;
+    overflow: hidden;
+    height:24px;
+}
+input {
+    width:100%;
+    outline:0;
+}
+.save{
+background:rgb(60, 150, 226);
+border:0;
+color:#fff;
+margin-top:10px;
+height:36px;
+width:70px;
+}
+.d-row{
+margin-top:10px;
+}

@@ -1,0 +1,21 @@
+<style>
+    *{margin:0;padding:0;}
+</style>
+<div id="video"></div>
+<link type="text/css" rel="stylesheet" href="player/ckplayer-master/ckplayer/css/ckplayer.css" />
+<script type="text/javascript" src="player/ckplayer-master/ckplayer/js/ckplayer.min.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    var url = document.location.search.slice(1);
+    
+	var videoObject = {
+		container: '#video',
+		plug:'hls.js',
+		video:url,
+		autoplay: true,
+		menu:	[{
+			title:'淡然 tsymq@live.com',
+			link:'mailto:tsymq@live.com'
+		}]
+	};
+	var player=new ckplayer(videoObject)
+</script>

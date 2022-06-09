@@ -6,7 +6,7 @@
  2.启动转码任务，运行根目录下的start
 
  3.windows用户启动start.exe
- 
+
  4.linux用户运行start
 #### linux下快速部署
 你需要新建一个php站点，我这里的站点路径是 /www/123.com 你只需要替换该路径为自己网站路径即可
@@ -48,14 +48,21 @@ nohup ./start &
  所以本次放出的版本被我阉割了。
 
 ### 0x3
-#### /cron/          存放转码任务列表
+ /cron/          存放转码任务列表
+
  /hls/           存放切片文件
+
  /index/         存放视频信息索引
+
  /js/            前端静态资源
+
  /save/          存放上传视频
+
  /thumb/         存放视频截图文件
+
  /uploads/       存放上传分片文件
- /webuploader/   前端上传插件（来自百度）
+
+ /webuploader/   百度前端上传插件
 
 ### 0x4
  上传不了，多半是nginx上传限制到2m，修改nginx配置中的client_max_body_size改为4m即可

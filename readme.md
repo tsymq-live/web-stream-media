@@ -10,7 +10,7 @@
  4.linux用户运行start
 #### linux下快速部署
 你需要新建一个php站点，我这里的站点路径是 /www/123.com 你只需要替换该路径为自己网站路径即可
-```
+```shell
 cd /www/123.com
 git clone https://github.com/tsymq-live/web-stream-media.git
 chmod 755 -R ./
